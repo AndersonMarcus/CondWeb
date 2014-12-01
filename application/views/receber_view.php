@@ -147,7 +147,7 @@
 
 
                     <div class="form-group">
-                        <input type="submit" name="cadastrar" value="Cadastrar" class="btn btn-primary btn-lg" style="position: relative; left: 100px;"/>
+                        <input type="submit" name="cadastrar" value="Cadastrar" class="btn btn-primary btn-lg" style="position: relative; top: 10px; left: 640px;"/>
                     </div>
 
                     <?php echo form_close(); ?>
