@@ -127,9 +127,11 @@
                                 <input type="text" class="form-control" name="telefone" value="<?php echo set_value('telefone'); ?>"/>
                                 <div class="error"><?php echo form_error('telefone'); ?></div> </div>
                             <div class="form-group">
-                                <label for="perfil">Perfil:</label><br/>
-                                <input type="text" class="form-control" name="perfil" value="<?php echo set_value('perfil'); ?>"/>
-                                <div class="error"><?php echo form_error('perfil'); ?></div></div>
+                                <label for="perfil">Escolha o Perfil:</label><br/>
+                                <select class="form-control" name="perfil" id="perfil" value="<?php echo set_value('perfil'); ?>"/>
+                                <option value="administrador">administrador</option>
+                                <option value="visualizador">visualizador</option>
+                                </select></div>
                             <div class="form-group">
                                 <label for="idapartamento">Apartamento:</label><br/>
                                 <input type="text" class="form-control" name="idapartamento" value="<?php echo set_value('idapartamento'); ?>"/>

@@ -103,6 +103,7 @@
                     </div> 
 
                     <?php echo form_open('condominios/atualizar', 'id="form-condominios"'); ?>             
+                        <input type="hidden" name="condominio" value="<?php echo $dados_condominio[0]->condominioId; ?>"/>
 
                     <div class="form-group">
                         <div class="col-sm-5 col-sm-offset-1">

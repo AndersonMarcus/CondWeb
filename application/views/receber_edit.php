@@ -97,7 +97,7 @@
                     <div class="container">
                         <div class="center"> 
                             <br/>
-                            <h2>Cadastro de Usuários</h2>
+                            <h2>Atualizar Contas</h2>
 
                         </div> 
 
