@@ -141,7 +141,7 @@
                     <?php echo form_close(); ?>
 
                 </section>
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 </div>
 
                 <footer id="footer" class="midnight-blue">
