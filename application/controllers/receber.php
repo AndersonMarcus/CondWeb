@@ -27,7 +27,7 @@ class Receber extends CI_Controller {
 
       $option="";
         foreach ($condominios->result() as $linha) {
-            $option .= "<option>" .$linha->condominioId . "-" . $linha->nome ."</option>";
+            $option .= "\n \t<option value='$linha->condominioId'>" .$linha->condominioId . "-" . $linha->nome ."</option>";
         }
        
         $data['options_condominios'] = $option;
