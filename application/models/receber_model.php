@@ -14,7 +14,7 @@ class Receber_model extends CI_Model {
     }
 
     function listar() {
-        $query = $this->db->get('contasReceber');
+        $query = $this->db->get('contasreceber');
         return $query->result();
     }
 
